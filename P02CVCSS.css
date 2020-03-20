@@ -1,0 +1,29 @@
+.border-5 {
+    border-width:8px !important;
+    }
+.back-5{
+    background-color: #404040;
+}
+.jumbotron{
+    background-color: white;
+}
+
+
+.container{
+    display:flex;
+    flex-direction:row;
+    align-items:center; 
+}
+{
+    color: #FECA07;
+}
+    
+
+
+
+ul.demo {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
