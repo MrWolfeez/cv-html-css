@@ -110,32 +110,12 @@ p {/* SIZE TEXTE + TOUS LES P */
     padding-top: 96px;
 }
 
-.resume .resume_right .resume_work ul,
-.resume .resume_right .resume_education ul {/* POSITION POINT DEVANT DATE */
-    padding-left: 26px;
-    overflow: hidden;/* CONTENUE ROGNE IN THE BOX(padding) */
-}
+
 
 .resume .resume_right ul li { /* PETIT POINT DEVANT DATE */
     position: relative;/* POSITION IN THE CONTENT+ALIGN */
 }
 
-.resume .resume_right .resume_work ul li :before,
-.resume .resume_right .resume_education ul li :before { /* petit dots jaune en face des dates */
-   
-    content: "";
-    position: absolute;
-    top: 11px;
-    left: -23px;
-    width: 5px;
-    /* largeur du dots */
-    height: 5px;
-    /* hauteur du dots */
-    border-radius: 50%;
-    /* forme arrondie */
-    border: 5px solid #FECA07;
-    /* bord du cercle, en trait plein, et couleur de maquette */
-}
 
 .text {/* text lorem pour à propos de  */
     
