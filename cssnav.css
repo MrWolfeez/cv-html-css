@@ -1,0 +1,204 @@
+.no-padding>[class *='col-'] {/* NO PADDING SUR LES COL- CONFIG DE BOOTS */
+    padding-right: 0;
+    padding-left: 0;
+}
+
+* {/* LISTE A PUCES NONE SUR TT LES ELEM */
+
+    list-style: none;
+}
+
+body {/* SIZE DU BODY */
+
+    font-size: 20px;
+
+}
+
+p {/* SIZE TEXTE + TOUS LES P */
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.data { /* GRAS LA LISTE DES CONTACT/LEFT */
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.row {/* BOOTSTRAP CONFIG ROW */
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.onglets {/*COLOR contact-a propos-loisirs */
+    
+    color: #FECA07;
+}
+
+.icon {/* ICON DES SECTIONS */
+    font-size: 40px;
+    color: #FECA07;
+    margin-block-start: auto;
+    margin-block-end: 8px;
+}
+
+.sections {/* SECTIONS FORMA+EXPE+RECOM */
+    padding-bottom: 8px;
+    margin-left: 40px;
+    
+
+
+}
+
+.resume .resume_left {/* dans la page , le menu gauche */
+    
+
+    /* prend toujours largeur de 50% */
+    background: #FECA07;
+}
+
+.left-menu-photo { /* content de l'avatar */
+   
+    text-align: center;
+    /* center avatar */
+
+}
+
+.avatar { /* photos */
+   
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 60px;
+    border: 4px solid #cda411;
+}
+
+.resume .title {/* box contenant le tittle LESCURELOUIS + border bottom/ ici juste l'espace sous la border */
+    
+    margin-bottom: 40px;
+    /* margin de 40px sous la border */
+}
+
+.aboutme {/* SECTIONS */
+    background-color: #404040;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.textaboutme {/* TEXTE A PROPOS */
+    background-color: #FECA07;
+    padding: 20px;
+}
+.resume .resume_left ul li {/*MENU GAUCHE ESPACE ENTRE LES CONTACT */
+    
+    margin-bottom: 10px;
+   
+}
+.resume .resume_item {/* MENU DROITE CSS/ROW SECTIONS+ICONS/PADDING+BORDER */
+    padding-top: 143px;/* ESPACE ENTRE CHAQUE SECTIONS */
+    border-bottom: 3px solid #FECA07;/* SEPARATORS EN BORDER BOTTOM */
+}
+
+.contactlist {/* LIST DES CONTACTS */
+    padding: 40px;
+}
+
+.resume .resume_right {/* CSS DE LA PAGE PRINCIPALE */
+    width: 100%;
+    background: #fff;
+    padding: 55px;
+    padding-top: 96px;
+}
+
+.resume .resume_right .resume_work ul,
+.resume .resume_right .resume_education ul {/* POSITION POINT DEVANT DATE */
+    padding-left: 26px;
+    overflow: hidden;/* CONTENUE ROGNE IN THE BOX(padding) */
+}
+
+.resume .resume_right ul li { /* PETIT POINT DEVANT DATE */
+    position: relative;/* POSITION IN THE CONTENT+ALIGN */
+}
+
+.resume .resume_right .resume_work ul li :before,
+.resume .resume_right .resume_education ul li :before { /* petit dots jaune en face des dates */
+   
+    content: "";
+    position: absolute;
+    top: 11px;
+    left: -23px;
+    width: 5px;
+    /* largeur du dots */
+    height: 5px;
+    /* hauteur du dots */
+    border-radius: 50%;
+    /* forme arrondie */
+    border: 5px solid #FECA07;
+    /* bord du cercle, en trait plein, et couleur de maquette */
+}
+
+.text {/* text lorem pour à propos de  */
+    
+    padding: 40px;
+    /* norme de 40px pour padding autour texte dans menu-left */
+    text-align: justify;
+    /* text aligner dans le container ou plutot bien carré */
+    padding-bottom: 805px;
+    /* espace entre le texte et loisirs toujours de 80% == > maquette */
+}
+
+.resume .resume_left .resume_hobby ul {/* icons loisirs  */
+    
+    display: flex;/* ALIGNER HORIZONTAL */
+    /* icons puissent ce déplacer dans la box */
+    justify-content: space-between;
+    /* espace entre les icons */
+    padding: 40px;
+    /* padding tout autour de la box, norme 40px pour menu-left */
+
+}
+
+.content {
+    width: 100%;
+}
+
+.col-sm-4 {/* TOUTE COLONNE DE 4  */
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.col-sm-6 {/* x2 RECOMMANDATIONS */
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.content2 {/* ESCPACE ENTRE CHAQUE SECTIONS+DATES+ICONS  */
+    padding-bottom: 30px;
+}
+
+.sous_titre {/* ESPACE ENTRE MINI TEXTE ET SOUS TITRES */
+    padding-bottom: 10px;
+    ;
+}
+
+h1 {/* TAILLE DU H1 */
+    font-size: 67px;
+
+}
+
+.underline {/* SOULIGNE "Dévelo" */
+    border-bottom: 3px solid #FECA07;
+}
+
+.date {/* DATES EN GRAS */
+    font-weight: bold;
+}
+
+h2 {/* TOUS LES H2 */
+    font-weight: bold;
+}
+
+.libel {/* COLORS GRAY SOUS TITRES */
+    font-size: 30px;
+    color: #404040;
+}
