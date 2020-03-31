@@ -19,19 +19,27 @@
   </head>
 
   <body>
-    <div class="row no-padding resume"><!-- PAGE PRINCIPALE -->
-      <div class="col-sm-4 resume_left"><!-- MENU GAUCHE -->
-        <div class="resume_content"><!-- CONTENT GAUCHE -->
-          <div class="left-menu-photo"><!-- BOX PHOTO -->
-            <img src="Mario.jpg" alt="Avatar" class="avatar" />
+    <div class="row no-padding resume">
+      <!-- PAGE PRINCIPALE -->
+
+      <nav class="col-sm-4 resume_left">
+        <!-- MENU GAUCHE -->
+        <div class="resume_content">
+          <!-- CONTENT GAUCHE -->
+          <div class="left-menu-photo">
+            <!-- BOX PHOTO -->
+            <img src="mario.jpg" alt="Avatar" class="avatar" />
           </div>
-          <div class="resume_social"><!-- BOX CONTACT -->
-            <div class="aboutme"><!-- SEPARATEUR CONTACT -->
+          <section class="resume_social">
+            <!-- BOX CONTACT -->
+            <section class="aboutme">
+              <!-- SEPARATEUR CONTACT -->
               <span class="onglets">
                 <h2>CONTACT</h2>
               </span>
-            </div>
-            <ul class="contactlist"><!-- LIST CONTACT -->
+            </section>
+            <ul class="contactlist">
+              <!-- LIST CONTACT -->
               <li>
                 <div class="data">
                   <p>Adresse</p>
@@ -63,13 +71,14 @@
                 </div>
               </li>
             </ul>
-          </div>
+          </section>
 
-          <div class="aboutme"><!-- TEXTE A PROPOS -->
+          <section class="aboutme">
+            <!-- TEXTE A PROPOS -->
             <span class="onglets">
               <h2>A PROPOS DE MOI</h2>
             </span>
-          </div>
+          </section>
           <p class="text">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             Perspiciatis illo fugit officiis distinctio culpa officia totam
@@ -83,12 +92,13 @@
             quaerat hic quibusdam, atque ex.
           </p>
 
-          <div class="resume_hobby"><!-- BOX LOISIRS -->
-            <div class="aboutme">
+          <div class="resume_hobby">
+            <!-- BOX LOISIRS -->
+            <section class="aboutme">
               <span class="onglets">
                 <h2>LOISIRS</h2>
               </span>
-            </div>
+            </section>
             <ul>
               <span class="fa-stack fa-2x">
                 <!-- PISCINE -->
@@ -108,185 +118,183 @@
             </ul>
           </div>
         </div>
-      </div>
+      </nav>
 
-      <div class="col-sm-8 resume_right"><!-- MENU DROIT -->
-        <div class="resume_about"><!-- H1+SOUS-TITRE -->
+      <content class="col-sm-8 resume_right">
+        <!-- MENU DROIT -->
+        <header>
+          <!-- H1+SOUS-TITRE -->
           <div class="title">
             <h1><span class="onglets">LESCURE</span> LOUIS</h1>
             <h5 class="libel">
               <span class="underline">Dévelo</span>ppeur Web/front-end
             </h5>
           </div>
-        </div>
-        <div class="resume_work"><!-- BOX FORMATION -->
-          <div class="row title resume_item"><!-- CONTENT TITRE+ICON -->
+        </header>
+        <section class="resume_work">
+          <!-- BOX FORMATION -->
+          <nav class="row title resume_item">
+            <!-- CONTENT TITRE+ICON -->
             <i class="fas fa-graduation-cap icon"></i>
             <span class="sections">
               <h2>FORMATION</h2>
             </span>
-          </div>
-          <div class="content">
-            <div class="row">
-              <div class="content">
-                <div class="row">
-                  <div class="row content2">
-                    <div class="col-sm-4">
-                      <ul class="fa-ul">
-                        <li>
-                          <span class="fa-li"><i class="fa-dot-circle far"></i></span>
-                          <div class="date">2013 - 2015</div>
-                          <p class="date">Paris</p>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="col-sm-8">
-                      <h4>OPENCLASSROOMS</h4>
-                      <p class="sous_titre">junior Web Developer</p>
-                      <p>
-                        Sunt in culpa qui officia deserunt mollit anim id est
-                        laborum consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco.
-                      </p>
-                      <br />
-                    </div>
-                  </div>
-                  <div class="row content2">
-                    <div class="col-sm-4 ">
-                      <ul>
-                        <li>
-                          <div class="date">2013 - 2015</div>
-                          <p class="date">Paris</p>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="col-sm-8">
-                      <h4>UNIVERSITY OF LOREM</h4>
-                      <p class="sous_titre">Graphic Designer</p>
-                      <p>
-                        Sunt in culpa qui officia deserunt mollit anim id est
-                        laborum consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco.
-                      </p>
-                      <br />
-                    </div>
-                  </div>
-                </div>
-              </div>
+          </nav>
+
+          <div class="row content">
+            <div class="row content2">
+              <aside class="col-sm-4">
+                <ul class="fa-ul">
+                  <li>
+                    <span class="fa-li"><i class="fa-dot-circle far"></i></span>
+                    <div class="date">2013 - 2015</div>
+                    <p class="date">Paris</p>
+                  </li>
+                </ul>
+              </aside>
+              <article class="col-sm-8">
+                <h4>OPENCLASSROOMS</h4>
+                <p class="sous_titre">junior Web Developer</p>
+                <p>
+                  Sunt in culpa qui officia deserunt mollit anim id est laborum
+                  consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                  ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco.
+                </p>
+                <br />
+              </article>
+            </div>
+            <div class="row content2">
+              <aside class="col-sm-4">
+                <ul class="fa-ul">
+                  <li>
+                    <span class="fa-li"><i class="fas fa-circle"></i></span>
+                    <div class="date">2013 - 2015</div>
+                    <p class="date">Paris</p>
+                  </li>
+                </ul>
+              </aside>
+              <article class="col-sm-8">
+                <h4>UNIVERSITY OF LOREM</h4>
+                <p class="sous_titre">Graphic Designer</p>
+                <p>
+                  Sunt in culpa qui officia deserunt mollit anim id est laborum
+                  consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                  ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco.
+                </p>
+                <br />
+              </article>
             </div>
           </div>
-        </div>
-        <div class="resume_education"><!-- BOX EXPERIENCE_PRO -->
-          <div class="row title resume_item"><!-- CONTENT TITRE H2+ICONS -->
+        </section>
+        <section class="resume_education">
+          <!-- BOX EXPERIENCE_PRO -->
+          <nav class="row title resume_item">
+            <!-- CONTENT TITRE H2+ICONS -->
             <i class="fas fa-briefcase icon"></i>
             <span class="sections">
               <h2>EXPERIENCE PROFESSIONELLE</h2>
             </span>
-          </div>
-          <div class="content">
-            <div class="row">
-              <div class="content">
-                <div class="row">
-                  <div class="row content2">
-                    <div class="col-sm-4">
-                      <ul>
-                        <li>
-                          <div class="date">Mars 2018 -Poste actuel</div>
-                          <p class="date">Paris</p>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="col-sm-8">
-                      <h4>DESIGN INC.</h4>
-                      <p class="sous_titre">Web Developer</p>
-                      <p>
-                        Sunt in culpa qui officia deserunt mollit anim id est
-                        laborum consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco.
-                      </p>
-                      <br />
-                    </div>
-                  </div>
-                  <div class="row content2">
-                    <div class="col-sm-4 ">
-                      <ul>
-                        <li>
-                          <div class="date">Mars 2018 -Poste actuel</div>
-                          <p class="date">Paris</p>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="col-sm-8">
-                      <h4>DESIGN INC.</h4>
-                      <p class="sous_titre">Graphic Designer</p>
-                      <p>
-                        Sunt in culpa qui officia deserunt mollit anim id est
-                        laborum consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco.
-                      </p>
-                      <br />
-                    </div>
-                  </div>
-                  <div class="row content2">
-                    <div class="col-sm-4">
-                      <ul>
-                        <li>
-                          <div class="date">Mars 2018 -Poste actuel</div>
-                          <p class="date">Paris</p>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="col-sm-8">
-                      <h4>DESIGN INC.</h4>
-                      <p class="sous_titre">Graphic Designer</p>
-                      <p>
-                        Sunt in culpa qui officia deserunt mollit anim id est
-                        laborum consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco.
-                      </p>
-                      <br />
-                    </div>
-                  </div>
-                </div>
-              </div>
+          </nav>
+
+          <div class="row content">
+            <div class="row content2">
+              <aside class="col-sm-4">
+                <ul class="fa-ul">
+                  <li>
+                    <span class="fa-li"><i class="fa-dot-circle far"></i></span>
+                    <div class="date">Mars 2018 -Poste actuel</div>
+                    <p class="date">Paris</p>
+                  </li>
+                </ul>
+              </aside>
+              <article class="col-sm-8">
+                <h4>DESIGN INC.</h4>
+                <p class="sous_titre">Web Developer</p>
+                <p>
+                  Sunt in culpa qui officia deserunt mollit anim id est laborum
+                  consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                  ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco.
+                </p>
+                <br />
+              </article>
+            </div>
+            <div class="row content2">
+              <aside class="col-sm-4">
+                <ul class="fa-ul">
+                  <li>
+                    <span class="fa-li"><i class="fas fa-circle"></i></span>
+                    <div class="date">2013 - 2015</div>
+                    <p class="date">Paris</p>
+                  </li>
+                </ul>
+              </aside>
+              <article class="col-sm-8">
+                <h4>DESIGN INC.</h4>
+                <p class="sous_titre">Graphic Designer</p>
+                <p>
+                  Sunt in culpa qui officia deserunt mollit anim id est laborum
+                  consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                  ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco.
+                </p>
+                <br />
+              </article>
+            </div>
+            <div class="row content2">
+              <aside class="col-sm-4">
+                <ul class="fa-ul">
+                  <li>
+                    <span class="fa-li"><i class="fas fa-circle"></i></span>
+                    <div class="date">2013 - 2015</div>
+                    <p class="date">Paris</p>
+                  </li>
+                </ul>
+              </aside>
+              <article class="col-sm-8">
+                <h4>DESIGN INC.</h4>
+                <p class="sous_titre">Graphic Designer</p>
+                <p>
+                  Sunt in culpa qui officia deserunt mollit anim id est laborum
+                  consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                  ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco.
+                </p>
+                <br />
+              </article>
             </div>
           </div>
-        </div>
-        <div class="resume_education"><!-- BOX RECOMMANDATIONS -->
-          <div class="row title resume_item">
+        </section>
+        <section class="resume_education">
+          <!-- BOX RECOMMANDATIONS -->
+          <nav class="row title resume_item">
             <i class="fas fa-pen icon"></i>
             <span class="sections">
               <h2>RECOMMANDATIONS</h2>
             </span>
+          </nav>
+
+          <!-- x2 RECOMMANDA -->
+          <div class="row content">
+            <article class="col-sm-6">
+              <h5>MAXIME KIEMAN</h5>
+              <p>Directeur, Mon agence</p>
+              <p>Téléphone :</p>
+              <p>
+                Email :name@email.com
+              </p>
+            </article>
+            <article class="col-sm-6">
+              <h5>MAXIME KIEMAN</h5>
+              <p>Directeur, Mon agence</p>
+              <p>Téléphone :</p>
+              <p>Email :name@email.com</p>
+            </article>
           </div>
-          <div class="content">
-            <!-- x2 RECOMMANDA -->
-            <div class="content">
-              <div class="row">
-                <article class="col-sm-6">
-                  <h5>MAXIME KIEMAN</h5>
-                  <p>Directeur, Mon agence</p>
-                  <p>Téléphone :</p>
-                  <p>
-                    Email :name@email.com
-                  </p>
-                </article>
-                <article class="col-sm-6">
-                  <h5>MAXIME KIEMAN</h5>
-                  <p>Directeur, Mon agence</p>
-                  <p>Téléphone :</p>
-                  <p>Email :name@email.com</p>
-                </article>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+        </section>
+      </content>
     </div>
   </body>
 </html>
