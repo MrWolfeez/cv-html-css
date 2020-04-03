@@ -37,8 +37,7 @@ p {/* SIZE TEXTE + TOUS LES P */
 .icon {/* ICON DES SECTIONS */
     font-size: 40px;
     color: #FECA07;
-    margin-block-start: auto;
-    margin-block-end: 8px;
+   
 }
 
 .sections {/* SECTIONS FORMA+EXPE+RECOM */
@@ -124,7 +123,7 @@ p {/* SIZE TEXTE + TOUS LES P */
     /* norme de 40px pour padding autour texte dans menu-left */
     text-align: justify;
     /* text aligner dans le container ou plutot bien carré */
-    padding-bottom: 805px;
+    padding-bottom: 1496px;
     /* espace entre le texte et loisirs toujours de 80% == > maquette */
 }
 
