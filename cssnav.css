@@ -35,15 +35,16 @@ p {/* SIZE TEXTE + TOUS LES P */
 }
 
 .icon {/* ICON DES SECTIONS */
-    font-size: 40px;
+    padding-right: 5%;
+  
     color: #FECA07;
    
 }
 
 .sections {/* SECTIONS FORMA+EXPE+RECOM */
     padding-bottom: 8px;
-    margin-left: 40px;
-    
+    margin-left: 5%;
+    width: 100%;
 
 
 }
@@ -53,6 +54,8 @@ p {/* SIZE TEXTE + TOUS LES P */
 
     /* prend toujours largeur de 50% */
     background: #FECA07;
+    display: flex;
+    flex-flow: column;
 }
 
 .left-menu-photo { /* content de l'avatar */
@@ -67,7 +70,7 @@ p {/* SIZE TEXTE + TOUS LES P */
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    margin: 60px;
+    margin: 5%;
     border: 4px solid #cda411;
 }
 
@@ -102,12 +105,7 @@ p {/* SIZE TEXTE + TOUS LES P */
     padding: 40px;
 }
 
-.resume .resume_right {/* CSS DE LA PAGE PRINCIPALE */
-    width: 100%;
-    background: #fff;
-    padding: 55px;
-    padding-top: 96px;
-}
+
 
 
 
@@ -123,20 +121,23 @@ p {/* SIZE TEXTE + TOUS LES P */
     /* norme de 40px pour padding autour texte dans menu-left */
     text-align: justify;
     /* text aligner dans le container ou plutot bien carré */
-    padding-bottom: 1496px;
-    /* espace entre le texte et loisirs toujours de 80% == > maquette */
+   
 }
 
-.resume .resume_left .resume_hobby ul {/* icons loisirs  */
+.resume_hobby > ul {/* icons loisirs  */
     
     display: flex;/* ALIGNER HORIZONTAL */
     /* icons puissent ce déplacer dans la box */
     justify-content: space-between;
     /* espace entre les icons */
-    padding: 40px;
-    /* padding tout autour de la box, norme 40px pour menu-left */
-
+    padding: 0;
+    
 }
+.resume_hobby {
+    width: 100%;
+}
+
+
 
 .content {
     width: 100%;
@@ -205,3 +206,27 @@ h2 {/* TOUS LES H2 */
     padding-right: 50px;
 }
 
+.resume .resume_right {
+    width: 100%;
+    background-color: #fff;
+    padding-top: 96px;
+    
+
+}
+@media screen and (min-width: 768px) {
+    .resume .resume_right{/* CSS DE LA PAGE PRINCIPALE */
+        
+        
+        padding: 55px;
+       
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .resume .resume_right{/* CSS DE LA PAGE PRINCIPALE */
+        
+        
+        padding: 10px;
+       
+    }
+}
