@@ -239,36 +239,36 @@ h2 {
 @media screen and (max-width: 425px) {
   .left-menu-photo {
     /* content de l'avatar */
-    height: 20%;
+    height: 18%;
 
     /* center avatar */
   }
   .resume_social {
-    height: 80%;
+    height: 82%;
   }
 }
 
 @media screen and (min-width: 425px) and (max-width: 991px) {
   .left-menu-photo {
     /* content de l'avatar */
-    height: 25%;
+    height: 21%;
 
     /* center avatar */
   }
   .resume_social {
-    height: 75%;
+    height: 79%;
   }
 }
 
 @media screen and (min-width: 991px) {
   .left-menu-photo {
     /* content de l'avatar */
-    height: 13%;
+    height: 14%;
 
     /* center avatar */
   }
   .resume_social {
-    height: 87%;
+    height: 86%;
   }
 }
 
